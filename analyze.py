@@ -21,6 +21,7 @@ australia = df[df['Country'] == 'Australia']
 #Market share of AI in companies
 ai_in_companies = df['Market Share of AI Companies (%)']
 avg_market_share = np.average(ai_in_companies)
+print(avg_market_share)
 
 
 
