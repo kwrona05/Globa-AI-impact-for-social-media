@@ -23,6 +23,7 @@ ai_in_companies = df['Market Share of AI Companies (%)']
 avg_market_share = np.average(ai_in_companies)
 
 
+
 #Consumer trust to AI
 
 #AI generated content
