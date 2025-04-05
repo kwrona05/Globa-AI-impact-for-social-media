@@ -23,7 +23,8 @@ ai_in_companies = df['Market Share of AI Companies (%)']
 avg_market_share = np.average(ai_in_companies)
 print(avg_market_share)
 
-
+india_avg_market_share = np.average(india_df['Market Share of AI Companies (%)'])
+print(india_avg_market_share)
 
 #Consumer trust to AI
 
